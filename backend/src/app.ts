@@ -32,7 +32,7 @@ app.use(
 
 const limiter = rateLimit({
   windowMs: env.rateLimit.windowMs,
-  max: env.rateLimit.maxRequests,
+  max: env.isProduction ? env.rateLimit.maxRequests : 600, // relaxed for local dev
   standardHeaders: true,
   legacyHeaders: false,
   message: {
