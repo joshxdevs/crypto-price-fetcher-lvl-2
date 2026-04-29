@@ -87,7 +87,7 @@ export default function App() {
     <div className="min-h-screen bg-[var(--color-bg)]">
       {/* ── Nav ─────────────────────────────────────────────────────────────── */}
       <header className="border-b border-[var(--color-border)]">
-        <div className="max-w-2xl mx-auto px-6 py-5 flex items-center justify-between">
+        <div className="w-full px-6 md:px-12 lg:px-20 py-5 flex items-center justify-between">
           <div className="animate-fade-in opacity-0" style={{ animationFillMode: 'forwards' }}>
             <h1 className="text-sm font-semibold tracking-tight text-[var(--color-white)]">
               CryptoLens
@@ -102,7 +102,7 @@ export default function App() {
 
       {/* ── Tab Bar ──────────────────────────────────────────────────────────── */}
       <div className="border-b border-[var(--color-border)]">
-        <div className="max-w-2xl mx-auto px-6 flex gap-6">
+        <div className="w-full px-6 md:px-12 lg:px-20 flex gap-6">
           {(['prices', 'news'] as Tab[]).map((t) => (
             <button
               key={t}
@@ -137,7 +137,7 @@ export default function App() {
       </div>
 
       {/* ── Main ─────────────────────────────────────────────────────────────── */}
-      <main className="max-w-2xl mx-auto px-6 py-12">
+      <main className="w-full px-6 md:px-12 lg:px-20 py-12">
 
         {/* Prices Tab */}
         {tab === 'prices' && (
@@ -219,7 +219,7 @@ export default function App() {
 
       {/* ── Footer ───────────────────────────────────────────────────────────── */}
       <footer className="border-t border-[var(--color-border)] mt-20">
-        <div className="max-w-2xl mx-auto px-6 py-8 flex items-center justify-between">
+        <div className="w-full px-6 md:px-12 lg:px-20 py-8 flex items-center justify-between">
           <span className="text-[10px] uppercase tracking-widest text-[var(--color-muted)]">
             CryptoLens · v1.0.0
           </span>
