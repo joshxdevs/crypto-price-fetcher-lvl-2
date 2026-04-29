@@ -3,7 +3,7 @@
 A production-grade, full-stack cryptocurrency price and news fetcher. 
 Built with a **Node.js/Express TypeScript backend** and a **React/Vite TypeScript frontend** using **Tailwind CSS v4**.
 
-![CryptoLens](https://via.placeholder.com/1200x600?text=CryptoLens+Minimalist+UI)
+![CryptoLens](https://placehold.co/1200x600/0a0a0a/e5e5e5.png?text=CryptoLens+Minimalist+UI)
 
 ## Features
 
